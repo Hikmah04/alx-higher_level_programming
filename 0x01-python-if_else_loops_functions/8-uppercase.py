@@ -3,9 +3,9 @@
 
 
 def uppercase(str):
-        for each_chr in str:
-                    deca = ord(each_chr)
-                            if deca in range(97, 123):
-                                            deca = chr(deca - 32)
-                                                    print("{}".format(deca), end='')
-                                                        print("")
+    for each_chr in str:
+        deca = ord(each_chr)
+        if deca in range(97, 123):
+            deca = chr(deca - 32)
+        print("{}".format(deca), end='')
+    print("")
